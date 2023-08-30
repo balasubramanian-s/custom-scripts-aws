@@ -1,0 +1,12 @@
+{
+    "reporter": {
+        "automate" : {
+            "stdout" : false,
+            "url" : "https://ec2-18-206-206-242.compute-1.amazonaws.com/data-collector/v0/",
+            "token" : "6MqjeGuDZavNzIWpy4QKPs9Nn48=",
+            "insecure" : true,
+            "node_uuid": "3D833A89-A71D-4F46-984E-248A833E46DE"
+        }
+    }
+}
+
