@@ -49,7 +49,7 @@ export CHEF_LICENSE=accept-no-persist
 
 # unset pipefail as InSpec exits with error code if any tests fail
 set +eo pipefail
-inspec exec . -t aws:// --reporter json | ruby ./Report-Compliance-20200225
+inspec exec . -t aws:// --reporter automate-json --config automate.json
 if [ $? -ne 0 ]; then
   echo "Failed to execute InSpec tests: see stderr"
   EXITCODE=2
